@@ -6,14 +6,22 @@ import ItemList from '../item-list';
 import PersonDetails from '../person-details';
 
 import './app.css';
-import SwapiService from '../../services/swapi-service';
+// import SwapiService from '../../services/swapi-service';
 
 const App = () => {
-const swapi = new SwapiService();
-swapi.getStarship(11)
-  .then((body) => {
-    console.log('body',body);
-  })
+// const swapi = new SwapiService();
+// swapi.getStarship(11)
+//   .then((body) => {
+//     console.log('starship',body);
+//   })
+//   swapi.getPerson(10)
+//   .then((body1) => {
+//     console.log('person',body1);
+//   }) 
+//   swapi.getPlanet(10)
+//   .then((body2) => {
+//     console.log('planet',body2);
+//   }) 
   
   return (
     <div>
